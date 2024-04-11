@@ -1,0 +1,134 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "id": 1,
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Video Games",
+            "question": "Which of these \"Worms\" games featured 3D gameplay?",
+            "correct_answer": "Worms 4: Mayhem",
+            "incorrect_answers": [
+                "Worms W.M.D",
+                "Worms Reloaded",
+                "Worms: Open Warfare 2"
+            ],
+            "all_answers": [
+                "Worms 4: Mayhem",
+                "Worms W.M.D",
+                "Worms Reloaded",
+                "Worms: Open Warfare 2"
+            ]
+        },
+        {
+            "id": 2,
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Entertainment: Music",
+            "question": "This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.",
+            "correct_answer": "The Velvet Underground and Nico",
+            "incorrect_answers": [
+                "Abbey Road",
+                "Led Zeppelin IV",
+                "Pet Sounds"
+            ],
+            "all_answers": [
+                "The Velvet Underground and Nico",
+                "Abbey Road",
+                "Led Zeppelin IV",
+                "Pet Sounds"
+            ]
+        },
+        {
+            "id": 3,
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Science &amp; Nature",
+            "question": "Which horizon in a soil profile consists of bedrock?",
+            "correct_answer": "R",
+            "incorrect_answers": [
+                "O",
+                "B",
+                "D"
+            ],
+            "all_answers": [
+                "R",
+                "O",
+                "B",
+                "D"
+            ]
+        },
+        {
+            "id": 4,
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Music",
+            "question": "In the song \"The Ultimate Showdown of Ultimate Destiny,\" who is the only one to survive the battle?",
+            "correct_answer": "Mr. Rogers",
+            "incorrect_answers": [
+                "Batman",
+                "Chuck Norris",
+                "Godzilla"
+            ],
+            "all_answers": [
+                "Mr. Rogers",
+                "Batman",
+                "Chuck Norris",
+                "Godzilla"
+            ]
+        },
+        {
+            "id": 5,
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "Geography",
+            "question": "When does Finland celebrate their independence day?",
+            "correct_answer": "December 6th",
+            "incorrect_answers": [
+                "January 2nd",
+                "November 12th",
+                "February 8th"
+            ],
+            "all_answers": [
+                "December 6th",
+                "January 2nd",
+                "November 12th",
+                "February 8th"
+            ]
+        },
+        {
+            "id": 9,
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "Entertainment: Music",
+            "question": "Which of these songs did Jimi Hendrix cover?",
+            "correct_answer": "All of these songs",
+            "incorrect_answers": [
+                "Sgt. Pepper's Lonely Hearts Club Band",
+                "All Along the Watchtower",
+                "House of the Rising Sun"
+            ],
+            "all_answers": [
+                "All of these songs",
+                "Sgt. Pepper's Lonely Hearts Club Band",
+                "All Along the Watchtower",
+                "House of the Rising Sun"
+            ]
+        },
+        {
+            "id": 10,
+            "type": "boolean",
+            "difficulty": "medium",
+            "category": "Entertainment: Video Games",
+            "question": "Shang Tsung is a playable character in Mortal Kombat XL.",
+            "correct_answer": "False",
+            "incorrect_answers": [
+                "True"
+            ],
+            "all_answers": [
+                "False",
+                "True"
+            ]
+        }
+    ]
+}
