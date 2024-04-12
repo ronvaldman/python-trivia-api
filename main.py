@@ -42,13 +42,13 @@ def delete_trivia_question(index):
 
 @app.route('/trivia/add', methods=['POST'])
 def add_trivia_question():
-    global trivia_data
-    new_question = request.json
-    trivia_data.append(new_question)
     with open('trivia_data.json', 'w') as file:
         json.dump(trivia_data, file, indent=4)
-
-    return jsonify({'message': 'Trivia question added successfully'})
+    if request.method == 'POST':
+        new_question = request.json
+        return jsonify({'message': 'Trivia question added successfully'})
+    else:
+        return jsonify({'error': 'Only POST requests are allowed for this endpoint'})
 
 
 def is_port_in_use(port):
