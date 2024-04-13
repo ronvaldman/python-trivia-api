@@ -102,7 +102,7 @@ if __name__ == '__main__':
             port = int(port_input)
             if not is_port_in_use(port):
                 print(GREEN + " * Server address is localhost:{}".format(port))
-                app.run(port=port)
+                app.run(port=port, debug=True)
                 break
             else:
                 print(RED + "Port {} is already in use. Please select a different port.".format(port))

@@ -1,24 +1,5 @@
 [
     {
-        "id": 4,
-        "type": "multiple",
-        "difficulty": "easy",
-        "category": "Science: Mathematics",
-        "question": "What is the value of pi (\u00cf\u20ac) to two decimal places?",
-        "correct_answer": "3.14",
-        "incorrect_answers": [
-            "3.12",
-            "3.16",
-            "3.18"
-        ],
-        "all_answers": [
-            "3.14",
-            "3.12",
-            "3.16",
-            "3.18"
-        ]
-    },
-    {
         "id": 5,
         "type": "multiple",
         "difficulty": "medium",
@@ -188,24 +169,5 @@
             "Barnard's Star",
             "Sirius"
         ]
-    },
-    {
-        "all_answers": [
-            "The Velvet Underground and Nico",
-            "Abbey Road",
-            "Led Zeppelin IV",
-            "Pet Sounds"
-        ],
-        "category": "Entertainment: Music",
-        "correct_answer": "The Velvet Underground and Nico",
-        "difficulty": "easy",
-        "id": 421,
-        "incorrect_answers": [
-            "Abbey Road",
-            "Led Zeppelin IV",
-            "Pet Sounds"
-        ],
-        "question": "This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.",
-        "type": "multiple"
     }
 ]
