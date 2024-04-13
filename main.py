@@ -40,10 +40,18 @@ def get_all_trivia_questions():
     return jsonify(trivia_data)
 
 
+@app.route('/trivia/<int:question_id>', methods=['GET'])
+def get_specific_question(question_id):
+    global trivia_data
+    if 0 <= question_id < len(trivia_data):
+        return jsonify(trivia_data[question_id])
+    else:
+        return jsonify({'error': 'Invalid question ID'})
+
+
 @app.route('/trivia/delete/<int:index>', methods=['DELETE'])
 def delete_trivia_question(index):
-    trivia_data = load_json_data()
-
+    global trivia_data
     if 0 <= index < len(trivia_data):
         del trivia_data[index]
         save_json_data(trivia_data)
@@ -57,12 +65,13 @@ def add_trivia_question():
     global trivia_data
     if request.method == 'POST':
         new_question = request.json
-        if isinstance(trivia_data, dict):
-            trivia_data = [trivia_data]
-        trivia_data.append(new_question)
-        with open('trivia_data.json', 'w') as file:
-            json.dump(trivia_data, file, indent=4)
-        return jsonify({'message': 'Trivia question added successfully'})
+        # Check for duplicates
+        if new_question not in trivia_data and all(new_question['id'] != question['id'] for question in trivia_data):
+            trivia_data.append(new_question)
+            save_json_data(trivia_data)
+            return jsonify({'message': 'Trivia question added successfully'})
+        else:
+            return jsonify({'error': 'Duplicate question'})
     else:
         return jsonify({'error': 'Only POST requests are allowed for this endpoint'})
 
@@ -82,14 +91,19 @@ def is_port_in_use(port):
 if __name__ == '__main__':
     username = os.getlogin()
     print(GREEN + "Hello,", username + "!", "Welcome to Ron's trivia API!")
-    port = 5000
     while True:
-        port = int(input(RED+"Select a port for your Flask server: "))
-        if not is_port_in_use(port):
-            print(GREEN + "Server address is 127.0.0.1:{}".format(port))
-            app.run(port=port)
-            break
-        # elif (port==""):
-        #     port = 5000
+        port_input = input(RED + "Select a port for your Flask server: ")
+        if port_input.strip() and port_input.isdigit():
+            port = int(port_input)
+            if not is_port_in_use(port):
+                print(GREEN + "Server address is localhost:{}".format(port))
+                app.run(port=port)
+                break
+            else:
+                print(RED + "Port {} is already in use. Please select a different port.".format(port))
         else:
-            print(RED + "Port {} is already in use. Please select a different port.".format(port))
+            port = 5000
+            if not is_port_in_use(port):
+                print(GREEN + "Default server address is localhost:{}".format(port))
+                app.run(port=port)
+                break
