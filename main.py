@@ -58,13 +58,20 @@ def delete_trivia_question(question_id):
     return jsonify({'error': f'Question with ID {question_id} not found'})
 
 
+def is_question_duplicate(new_question):
+    trivia_data = load_json_data()
+    for question in trivia_data:
+        if question['question'] == new_question['question']:
+            return True
+    return False
+
+
 @app.route('/trivia/add', methods=['POST'])
 def add_trivia_question():
     global trivia_data
     if request.method == 'POST':
         new_question = request.json
-        # Check for duplicates
-        if new_question not in trivia_data and all(new_question['id'] != question['id'] for question in trivia_data):
+        if new_question not in trivia_data and all(new_question['id'] != question['id'] for question in trivia_data) and not is_question_duplicate(new_question):
             trivia_data.append(new_question)
             save_json_data(trivia_data)
             return jsonify({'message': 'Trivia question added successfully'})
