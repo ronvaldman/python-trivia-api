@@ -41,22 +41,21 @@ def get_all_trivia_questions():
 
 @app.route('/trivia/<int:question_id>', methods=['GET'])
 def get_specific_question(question_id):
-    global trivia_data
     if 0 <= question_id < len(trivia_data):
         return jsonify(trivia_data[question_id])
     else:
         return jsonify({'error': 'Invalid question ID'})
 
 
-@app.route('/trivia/delete/<int:index>', methods=['DELETE'])
-def delete_trivia_question(index):
-    global trivia_data
-    if 0 <= index < len(trivia_data):
-        del trivia_data[index]
-        save_json_data(trivia_data)
-        return jsonify({'message': 'Trivia question deleted successfully'})
-    else:
-        return jsonify({'error': 'Invalid index'})
+@app.route('/trivia/delete/<int:question_id>', methods=['DELETE'])
+def delete_trivia_question(question_id):
+    trivia_data = load_json_data()
+    for question in trivia_data:
+        if question['id'] == question_id:
+            trivia_data.remove(question)
+            save_json_data(trivia_data)
+            return jsonify({'message': f'Trivia question with ID {question_id} deleted successfully'})
+    return jsonify({'error': f'Question with ID {question_id} not found'})
 
 
 @app.route('/trivia/add', methods=['POST'])

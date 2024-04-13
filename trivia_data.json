@@ -1,212 +1,211 @@
 [
     {
-        "response_code": 0,
-        "results": [
-            {
-                "id": 1,
-                "type": "multiple",
-                "difficulty": "medium",
-                "category": "Entertainment: Video Games",
-                "question": "Which of these \"Worms\" games featured 3D gameplay?",
-                "correct_answer": "Worms 4: Mayhem",
-                "incorrect_answers": [
-                    "Worms W.M.D",
-                    "Worms Reloaded",
-                    "Worms: Open Warfare 2"
-                ],
-                "all_answers": [
-                    "Worms 4: Mayhem",
-                    "Worms W.M.D",
-                    "Worms Reloaded",
-                    "Worms: Open Warfare 2"
-                ]
-            },
-            {
-                "id": 2,
-                "type": "multiple",
-                "difficulty": "hard",
-                "category": "Entertainment: Music",
-                "question": "This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.",
-                "correct_answer": "The Velvet Underground and Nico",
-                "incorrect_answers": [
-                    "Abbey Road",
-                    "Led Zeppelin IV",
-                    "Pet Sounds"
-                ],
-                "all_answers": [
-                    "The Velvet Underground and Nico",
-                    "Abbey Road",
-                    "Led Zeppelin IV",
-                    "Pet Sounds"
-                ]
-            },
-            {
-                "id": 3,
-                "type": "multiple",
-                "difficulty": "hard",
-                "category": "Science &amp; Nature",
-                "question": "Which horizon in a soil profile consists of bedrock?",
-                "correct_answer": "R",
-                "incorrect_answers": [
-                    "O",
-                    "B",
-                    "D"
-                ],
-                "all_answers": [
-                    "R",
-                    "O",
-                    "B",
-                    "D"
-                ]
-            },
-            {
-                "id": 4,
-                "type": "multiple",
-                "difficulty": "medium",
-                "category": "Entertainment: Music",
-                "question": "In the song \"The Ultimate Showdown of Ultimate Destiny,\" who is the only one to survive the battle?",
-                "correct_answer": "Mr. Rogers",
-                "incorrect_answers": [
-                    "Batman",
-                    "Chuck Norris",
-                    "Godzilla"
-                ],
-                "all_answers": [
-                    "Mr. Rogers",
-                    "Batman",
-                    "Chuck Norris",
-                    "Godzilla"
-                ]
-            },
-            {
-                "id": 5,
-                "type": "multiple",
-                "difficulty": "hard",
-                "category": "Geography",
-                "question": "When does Finland celebrate their independence day?",
-                "correct_answer": "December 6th",
-                "incorrect_answers": [
-                    "January 2nd",
-                    "November 12th",
-                    "February 8th"
-                ],
-                "all_answers": [
-                    "December 6th",
-                    "January 2nd",
-                    "November 12th",
-                    "February 8th"
-                ]
-            },
-            {
-                "id": 9,
-                "type": "multiple",
-                "difficulty": "medium",
-                "category": "Entertainment: Music",
-                "question": "Which of these songs did Jimi Hendrix cover?",
-                "correct_answer": "All of these songs",
-                "incorrect_answers": [
-                    "Sgt. Pepper's Lonely Hearts Club Band",
-                    "All Along the Watchtower",
-                    "House of the Rising Sun"
-                ],
-                "all_answers": [
-                    "All of these songs",
-                    "Sgt. Pepper's Lonely Hearts Club Band",
-                    "All Along the Watchtower",
-                    "House of the Rising Sun"
-                ]
-            },
-            {
-                "id": 10,
-                "type": "boolean",
-                "difficulty": "medium",
-                "category": "Entertainment: Video Games",
-                "question": "Shang Tsung is a playable character in Mortal Kombat XL.",
-                "correct_answer": "False",
-                "incorrect_answers": [
-                    "True"
-                ],
-                "all_answers": [
-                    "False",
-                    "True"
-                ]
-            }
-        ]
-    },
-    {
-        "id": 420,
+        "id": 4,
         "type": "multiple",
         "difficulty": "easy",
-        "category": "Entertainment: Music",
-        "question": "This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.",
-        "correct_answer": "The Velvet Underground and Nico",
+        "category": "Science: Mathematics",
+        "question": "What is the value of pi (\u00cf\u20ac) to two decimal places?",
+        "correct_answer": "3.14",
         "incorrect_answers": [
-            "Abbey Road",
-            "Led Zeppelin IV",
-            "Pet Sounds"
+            "3.12",
+            "3.16",
+            "3.18"
         ],
         "all_answers": [
-            "The Velvet Underground and Nico",
-            "Abbey Road",
-            "Led Zeppelin IV",
-            "Pet Sounds"
+            "3.14",
+            "3.12",
+            "3.16",
+            "3.18"
         ]
     },
     {
-        "id": 421,
-        "type": "multiple",
-        "difficulty": "easy",
-        "category": "Entertainment: Music",
-        "question": "This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.",
-        "correct_answer": "The Velvet Underground and Nico",
-        "incorrect_answers": [
-            "Abbey Road",
-            "Led Zeppelin IV",
-            "Pet Sounds"
-        ],
-        "all_answers": [
-            "The Velvet Underground and Nico",
-            "Abbey Road",
-            "Led Zeppelin IV",
-            "Pet Sounds"
-        ]
-    },
-    {
-        "id": 111,
+        "id": 5,
         "type": "multiple",
         "difficulty": "medium",
-        "category": "Entertainment: Music",
-        "question": "Which of these songs did Jimi Hendrix cover?",
-        "correct_answer": "All of these songs",
+        "category": "Geography",
+        "question": "What is the capital of France?",
+        "correct_answer": "Paris",
         "incorrect_answers": [
-            "Sgt. Pepper's Lonely Hearts Club Band",
-            "All Along the Watchtower",
-            "House of the Rising Sun"
+            "Madrid",
+            "Rome",
+            "Berlin"
         ],
         "all_answers": [
-            "All of these songs",
-            "Sgt. Pepper's Lonely Hearts Club Band",
-            "All Along the Watchtower",
-            "House of the Rising Sun"
+            "Paris",
+            "Madrid",
+            "Rome",
+            "Berlin"
         ]
     },
     {
-        "id": 112,
+        "id": 6,
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "History",
+        "question": "Who was the first President of the United States?",
+        "correct_answer": "George Washington",
+        "incorrect_answers": [
+            "Thomas Jefferson",
+            "Abraham Lincoln",
+            "John Adams"
+        ],
+        "all_answers": [
+            "George Washington",
+            "Thomas Jefferson",
+            "Abraham Lincoln",
+            "John Adams"
+        ]
+    },
+    {
+        "id": 7,
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Science: Biology",
+        "question": "What is the powerhouse of the cell?",
+        "correct_answer": "Mitochondria",
+        "incorrect_answers": [
+            "Nucleus",
+            "Ribosome",
+            "Endoplasmic Reticulum"
+        ],
+        "all_answers": [
+            "Mitochondria",
+            "Nucleus",
+            "Ribosome",
+            "Endoplasmic Reticulum"
+        ]
+    },
+    {
+        "id": 8,
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Entertainment: Film",
+        "question": "Who directed the movie 'Inception'?",
+        "correct_answer": "Christopher Nolan",
+        "incorrect_answers": [
+            "Quentin Tarantino",
+            "Steven Spielberg",
+            "Martin Scorsese"
+        ],
+        "all_answers": [
+            "Christopher Nolan",
+            "Quentin Tarantino",
+            "Steven Spielberg",
+            "Martin Scorsese"
+        ]
+    },
+    {
+        "id": 9,
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Science: Physics",
+        "question": "What is the SI unit of force?",
+        "correct_answer": "Newton",
+        "incorrect_answers": [
+            "Watt",
+            "Joule",
+            "Hertz"
+        ],
+        "all_answers": [
+            "Newton",
+            "Watt",
+            "Joule",
+            "Hertz"
+        ]
+    },
+    {
+        "id": 10,
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Entertainment: Video Games",
+        "question": "Which of these is NOT a playable character in the game 'Super Smash Bros. Ultimate'?",
+        "correct_answer": "Master Chief",
+        "incorrect_answers": [
+            "Mario",
+            "Link",
+            "Pikachu"
+        ],
+        "all_answers": [
+            "Master Chief",
+            "Mario",
+            "Link",
+            "Pikachu"
+        ]
+    },
+    {
+        "id": 11,
+        "type": "multiple",
+        "difficulty": "medium",
+        "category": "Geography",
+        "question": "What is the largest continent by land area?",
+        "correct_answer": "Asia",
+        "incorrect_answers": [
+            "Africa",
+            "North America",
+            "Europe"
+        ],
+        "all_answers": [
+            "Asia",
+            "Africa",
+            "North America",
+            "Europe"
+        ]
+    },
+    {
+        "id": 12,
         "type": "multiple",
         "difficulty": "easy",
         "category": "Entertainment: Music",
-        "question": "Which of these songs did Jimi Hendrix cover?",
-        "correct_answer": "All of these songs",
+        "question": "Who is known as the 'King of Pop'?",
+        "correct_answer": "Michael Jackson",
         "incorrect_answers": [
-            "Sgt. Pepper's Lonely Hearts Club Band",
-            "All Along the Watchtower",
-            "House of the Rising Sun"
+            "Elvis Presley",
+            "Madonna",
+            "Prince"
         ],
         "all_answers": [
-            "All of these songs",
-            "Sgt. Pepper's Lonely Hearts Club Band",
-            "All Along the Watchtower",
-            "House of the Rising Sun"
+            "Michael Jackson",
+            "Elvis Presley",
+            "Madonna",
+            "Prince"
         ]
+    },
+    {
+        "id": 13,
+        "type": "multiple",
+        "difficulty": "hard",
+        "category": "Science: Astronomy",
+        "question": "What is the name of the closest star to the Earth, excluding the Sun?",
+        "correct_answer": "Proxima Centauri",
+        "incorrect_answers": [
+            "Alpha Centauri A",
+            "Barnard's Star",
+            "Sirius"
+        ],
+        "all_answers": [
+            "Proxima Centauri",
+            "Alpha Centauri A",
+            "Barnard's Star",
+            "Sirius"
+        ]
+    },
+    {
+        "all_answers": [
+            "The Velvet Underground and Nico",
+            "Abbey Road",
+            "Led Zeppelin IV",
+            "Pet Sounds"
+        ],
+        "category": "Entertainment: Music",
+        "correct_answer": "The Velvet Underground and Nico",
+        "difficulty": "easy",
+        "id": 421,
+        "incorrect_answers": [
+            "Abbey Road",
+            "Led Zeppelin IV",
+            "Pet Sounds"
+        ],
+        "question": "This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.",
+        "type": "multiple"
     }
 ]
