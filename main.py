@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify, render_template
 import socket
 import json
 import os
-import requests
 import random
 
 YELLOW = '\033[93m'
@@ -96,7 +95,7 @@ if __name__ == '__main__':
         if port_input.strip() and port_input.isdigit():
             port = int(port_input)
             if not is_port_in_use(port):
-                print(GREEN + "Server address is localhost:{}".format(port))
+                print(GREEN + " * Server address is localhost:{}".format(port))
                 app.run(port=port)
                 break
             else:
