@@ -65,36 +65,38 @@
     <section class="section">
         <h2>Methods:</h2>
         <ul>
+            <li><a class="link" href="http://localhost:5000/">GET</a> http://localhost:5000/ - for homepage</li>
             <li><a class="link" href="http://localhost:5000/trivia">GET</a> http://localhost:5000/trivia - for all trivia questions</li>
             <li><a class="link" href="http://localhost:5000/trivia/random">GET</a> http://localhost:5000/trivia/random - for a random trivia question</li>
             <li><a class="link" href="http://localhost:5000/trivia/420">GET</a> http://localhost:5000/trivia/420 - for a specific trivia question</li>
-            <li>POST http://localhost:5000/trivia/add - specify a unique ID in JSON (see example below)</li>
+            <li><a class="link" href="http://localhost:5000/trivia/categories">GET</a> http://localhost:5000/trivia/categories - to list all categories</li>
             <li>DELETE http://localhost:5000/trivia/delete/id - for a specific ID</li>
+            <li>POST http://localhost:5000/trivia/add - specify a unique ID in JSON (see example below)</li>
         </ul>
     </section>
 
     <section class="section">
         <h2>Example JSON File</h2>
         <pre class="example-json">
-{
-    "all_answers": [
-        "The Velvet Underground and Nico",
-        "Abbey Road",
-        "Led Zeppelin IV",
-        "Pet Sounds"
-    ],
-    "category": "Entertainment: Music",
-    "correct_answer": "The Velvet Underground and Nico",
-    "difficulty": "easy",
-    "id": 421,
-    "incorrect_answers": [
-        "Abbey Road",
-        "Led Zeppelin IV",
-        "Pet Sounds"
-    ],
-    "question": "This album, now considered to be one of the greatest of all time, was a commercial failure when it was released.",
-    "type": "multiple"
-}
+   {
+        "id": 3,
+        "type": "multiple",
+        "difficulty": "easy",
+        "category": "Science: Biology",
+        "question": "What is the powerhouse of the cell?",
+        "correct_answer": "Mitochondria",
+        "incorrect_answers": [
+            "Nucleus",
+            "Ribosome",
+            "Endoplasmic Reticulum"
+        ],
+        "all_answers": [
+            "Mitochondria",
+            "Nucleus",
+            "Ribosome",
+            "Endoplasmic Reticulum"
+        ]
+    }
         </pre>
     </section>
 </body>

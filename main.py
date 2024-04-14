@@ -88,6 +88,12 @@ def get_random_question():
     return jsonify(random_question)
 
 
+@app.route('/trivia/categories', methods=['GET'])
+def get_categories():
+    categories = set(question['category'] for question in trivia_data)
+    return jsonify(list(categories))
+
+
 def is_port_in_use(port):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         return s.connect_ex(('127.0.0.1', port)) == 0
