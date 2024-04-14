@@ -94,6 +94,14 @@ def get_categories():
     return jsonify(list(categories))
 
 
+def sort_by_difficulty(difficulty):
+    sorted_questions = [question for question in trivia_data if question['difficulty'].lower() == difficulty.lower()]
+    if sorted_questions:
+        return jsonify(sorted_questions)
+    else:
+        return jsonify({'error': f'No questions found with difficulty level {difficulty}'})
+
+
 def is_port_in_use(port):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         return s.connect_ex(('127.0.0.1', port)) == 0
