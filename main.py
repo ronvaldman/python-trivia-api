@@ -94,6 +94,7 @@ def get_categories():
     return jsonify(list(categories))
 
 
+@app.route('/trivia/difficulty/<string:difficulty>', methods=['GET'])
 def sort_by_difficulty(difficulty):
     sorted_questions = [question for question in trivia_data if question['difficulty'].lower() == difficulty.lower()]
     if sorted_questions:
