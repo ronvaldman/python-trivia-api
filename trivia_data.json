@@ -2,7 +2,7 @@
     {
         "id": 1,
         "type": "multiple",
-        "difficulty": "medium",
+        "difficulty": "easy",
         "category": "Geography",
         "question": "What is the capital of France?",
         "correct_answer": "Paris",
@@ -171,22 +171,119 @@
         ]
     },
     {
-        "id": 400,
+        "id": 10,
         "type": "multiple",
-        "difficulty": "easy",
-        "category": "Science: Math",
-        "question": "Why Inna Baltin hands out so much homework?",
-        "correct_answer": "Breathe",
+        "difficulty": "medium",
+        "category": "History",
+        "question": "Who wrote the 'Declaration of Independence'?",
+        "correct_answer": "Thomas Jefferson",
         "incorrect_answers": [
-            "Nucleus",
-            "Ribosome",
-            "Endoplasmic Reticulum"
+            "George Washington",
+            "Abraham Lincoln",
+            "John Adams"
         ],
         "all_answers": [
-            "Mitochondria",
-            "Nucleus",
-            "Ribosome",
-            "Endoplasmic Reticulum"
+            "Thomas Jefferson",
+            "George Washington",
+            "Abraham Lincoln",
+            "John Adams"
         ]
-    }
+    },
+
+    {
+    "id": 11,
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Science: Chemistry",
+    "question": "What is the chemical symbol for water?",
+    "correct_answer": "H2O",
+    "incorrect_answers": [
+        "CO2",
+        "NaCl",
+        "HCl"
+    ],
+    "all_answers": [
+        "H2O",
+        "CO2",
+        "NaCl",
+        "HCl"
+    ]
+},
+{
+    "id": 12,
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "Entertainment: Music",
+    "question": "Which band recorded the album 'The Dark Side of the Moon'?",
+    "correct_answer": "Pink Floyd",
+    "incorrect_answers": [
+        "Led Zeppelin",
+        "The Beatles",
+        "Queen"
+    ],
+    "all_answers": [
+        "Pink Floyd",
+        "Led Zeppelin",
+        "The Beatles",
+        "Queen"
+    ]
+},
+{
+    "id": 13,
+    "type": "multiple",
+    "difficulty": "hard",
+    "category": "Geography",
+    "question": "Which country is both an island and a continent?",
+    "correct_answer": "Australia",
+    "incorrect_answers": [
+        "Madagascar",
+        "Greenland",
+        "New Zealand"
+    ],
+    "all_answers": [
+        "Australia",
+        "Madagascar",
+        "Greenland",
+        "New Zealand"
+    ]
+},
+{
+    "id": 14,
+    "type": "multiple",
+    "difficulty": "easy",
+    "category": "Entertainment: Film",
+    "question": "Who played the character of Neo in the movie 'The Matrix'?",
+    "correct_answer": "Keanu Reeves",
+    "incorrect_answers": [
+        "Brad Pitt",
+        "Tom Cruise",
+        "Leonardo DiCaprio"
+    ],
+    "all_answers": [
+        "Keanu Reeves",
+        "Brad Pitt",
+        "Tom Cruise",
+        "Leonardo DiCaprio"
+    ]
+},
+{
+    "id": 15,
+    "type": "multiple",
+    "difficulty": "medium",
+    "category": "History",
+    "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+    "correct_answer": "Amelia Earhart",
+    "incorrect_answers": [
+        "Beryl Markham",
+        "Jacqueline Cochran",
+        "Harriet Quimby"
+    ],
+    "all_answers": [
+        "Amelia Earhart",
+        "Beryl Markham",
+        "Jacqueline Cochran",
+        "Harriet Quimby"
+    ]
+}
+
 ]
