@@ -1,3 +1,4 @@
 # python-trivia-api
  A python trivia API
- Please read the PDF file to get started!
+ run flask_install and then start the server.
+ feel free to ask me anything.
